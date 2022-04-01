@@ -1,0 +1,273 @@
+[debug] [2022-04-01T05:52:09.238Z] ----------------------------------------------------------------------
+[debug] [2022-04-01T05:52:09.241Z] Command:       D:\Nodejs\node.exe C:\Users\DH519\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-01T05:52:09.243Z] CLI Version:   10.5.0
+[debug] [2022-04-01T05:52:09.243Z] Platform:      win32
+[debug] [2022-04-01T05:52:09.243Z] Node Version:  v16.14.2
+[debug] [2022-04-01T05:52:09.245Z] Time:          Fri Apr 01 2022 12:52:09 GMT+0700 (Indochina Time)
+[debug] [2022-04-01T05:52:09.245Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-01T05:52:09.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-01T05:52:09.255Z] > authorizing via signed-in user (tanminh.tn30102001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\react-food-shop-master
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-01T05:55:37.815Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-04-01T05:55:38.478Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-04-01T05:55:38.480Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project simpleshoptm (simpleShopTM) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-04-01T05:56:06.009Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-04-01T05:56:06.177Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-04-01T05:56:06.178Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.10","browserURL":"https://www.gstatic.com/firebasejs/9.6.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.10/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.10/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.10/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.10/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.10/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.10/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\react-food-shop-master is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=961598460&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-04-01T05:57:42.051Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"b22210f427d3bd66038a","redirect_uri":"http://localhost:9005","state":"961598460"}
+[debug] [2022-04-01T05:57:42.465Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Fri, 01 Apr 2022 05:57:43 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"aae253f08d18936ca55cd26ec9c6d2c2\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations raw.githubusercontent.com github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"CE77:12C8:37A70C:4E2EA9:62469457"}
+[debug] [2022-04-01T05:57:42.539Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-04-01T05:57:42.959Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-04-01T05:57:42.960Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Tanminh30102001","id":95014191,"node_id":"U_kgDOBanNLw","avatar_url":"https://avatars.githubusercontent.com/u/95014191?v=4","gravatar_id":"","url":"https://api.github.com/users/Tanminh30102001","html_url":"https://github.com/Tanminh30102001","followers_url":"https://api.github.com/users/Tanminh30102001/followers","following_url":"https://api.github.com/users/Tanminh30102001/following{/other_user}","gists_url":"https://api.github.com/users/Tanminh30102001/gists{/gist_id}","starred_url":"https://api.github.com/users/Tanminh30102001/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Tanminh30102001/subscriptions","organizations_url":"https://api.github.com/users/Tanminh30102001/orgs","repos_url":"https://api.github.com/users/Tanminh30102001/repos","events_url":"https://api.github.com/users/Tanminh30102001/events{/privacy}","received_events_url":"https://api.github.com/users/Tanminh30102001/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":8,"public_gists":0,"followers":0,"following":0,"created_at":"2021-11-25T06:24:48Z","updated_at":"2022-03-29T05:27:17Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":7282,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Tanminh30102001 
+[info] 
+[debug] [2022-04-01T05:57:54.823Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:57:55.183Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:57:55.184Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:57:58.448Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:57:58.799Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-04-01T05:57:58.799Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:16.049Z] >>> [apiv2][query] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:16.432Z] <<< [apiv2][status] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:16.432Z] <<< [apiv2][body] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:17.463Z] >>> [apiv2][query] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:17.822Z] <<< [apiv2][status] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:17.822Z] <<< [apiv2][body] GET https://api.github.com/repos/singgleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:19.114Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:19.473Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:19.473Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:33.211Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:33.566Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:33.567Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:34.734Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:35.084Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:35.084Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:35.375Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:35.567Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:35.731Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:35.731Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:35.768Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:35.910Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:35.910Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:36.118Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:36.118Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:36.215Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.576Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:36.576Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:36.722Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.748Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.794Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.825Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.858Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.896Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.922Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.951Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:36.980Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.013Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.057Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.070Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.071Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.088Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.092Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.092Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.121Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.127Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.127Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.149Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.157Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.158Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.181Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.196Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.196Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.213Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.244Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.260Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.260Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.276Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.286Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.286Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.292Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.292Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.326Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.342Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.342Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.352Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.359Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.359Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.382Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.387Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.387Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.420Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.428Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.428Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.444Z] >>> [apiv2][query] GET https://api.github.com/repos/repository /actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.473Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.479Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.479Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.524Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.554Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.555Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.555Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.560Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.560Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.584Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.593Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.593Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.612Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.624Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.624Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.644Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.667Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.667Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.674Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.703Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.704Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.712Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.730Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.730Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.752Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.756Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.756Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.782Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:37.786Z] <<< [apiv2][status] GET https://api.github.com/repos/repository /actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.786Z] <<< [apiv2][body] GET https://api.github.com/repos/repository /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.816Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.817Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.864Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.865Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.895Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.895Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.912Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.912Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.923Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.924Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.959Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.960Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:37.987Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:37.988Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:38.016Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:38.017Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:38.055Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:38.055Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:38.100Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:38.100Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:38.127Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:38.127Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:49.206Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:49.563Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:49.564Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:51.983Z] >>> [apiv2][query] GET https://api.github.com/repos/u/actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:52.335Z] <<< [apiv2][status] GET https://api.github.com/repos/u/actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:52.335Z] <<< [apiv2][body] GET https://api.github.com/repos/u/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T05:58:53.311Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T05:58:53.648Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T05:58:53.648Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:00:00.158Z] >>> [apiv2][query] GET https://api.github.com/repos/http://localhost:9005/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:00:00.524Z] <<< [apiv2][status] GET https://api.github.com/repos/http://localhost:9005/actions/secrets/public-key 404
+[debug] [2022-04-01T06:00:00.524Z] <<< [apiv2][body] GET https://api.github.com/repos/http://localhost:9005/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:36.614Z] >>> [apiv2][query] GET https://api.github.com/repos/acb/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:36.970Z] <<< [apiv2][status] GET https://api.github.com/repos/acb/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:36.970Z] <<< [apiv2][body] GET https://api.github.com/repos/acb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:48.440Z] >>> [apiv2][query] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:48.790Z] <<< [apiv2][status] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:48.790Z] <<< [apiv2][body] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:48.793Z] >>> [apiv2][query] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:48.941Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.099Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.136Z] <<< [apiv2][status] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.137Z] <<< [apiv2][body] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:49.246Z] >>> [apiv2][query] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.287Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.287Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:49.425Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.445Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.445Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:49.599Z] <<< [apiv2][status] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.599Z] <<< [apiv2][body] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:49.614Z] >>> [apiv2][query] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.766Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.767Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:49.820Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:49.963Z] <<< [apiv2][status] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:49.963Z] <<< [apiv2][body] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:50.022Z] >>> [apiv2][query] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:02:50.154Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:50.155Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:02:50.364Z] <<< [apiv2][status] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key 404
+[debug] [2022-04-01T06:02:50.364Z] <<< [apiv2][body] GET https://api.github.com/repos/ Tanminh301020/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:05:09.135Z] >>> [apiv2][query] GET https://api.github.com/repos/Tanminh30102001/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:05:09.495Z] <<< [apiv2][status] GET https://api.github.com/repos/Tanminh30102001/actions/secrets/public-key 404
+[debug] [2022-04-01T06:05:09.496Z] <<< [apiv2][body] GET https://api.github.com/repos/Tanminh30102001/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:13.398Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:13.951Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:13.951Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:14.190Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:14.375Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:14.537Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:14.537Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:14.545Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:14.700Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:14.711Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:14.711Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:14.838Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:14.887Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:14.887Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:14.997Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:15.034Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:15.034Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:15.150Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:15.179Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:15.179Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:15.286Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:06:15.344Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:15.344Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:15.488Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:15.488Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:06:15.627Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-04-01T06:06:15.627Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:07:58.052Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:07:58.399Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:07:58.399Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:08:03.838Z] >>> [apiv2][query] GET https://api.github.com/repos/singlesho/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:08:04.197Z] <<< [apiv2][status] GET https://api.github.com/repos/singlesho/actions/secrets/public-key 404
+[debug] [2022-04-01T06:08:04.197Z] <<< [apiv2][body] GET https://api.github.com/repos/singlesho/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-04-01T06:15:03.503Z] >>> [apiv2][query] GET https://api.github.com/repos/singleshop/actions/secrets/public-key type=owner
+[debug] [2022-04-01T06:15:03.925Z] <<< [apiv2][status] GET https://api.github.com/repos/singleshop/actions/secrets/public-key 404
+[debug] [2022-04-01T06:15:03.926Z] <<< [apiv2][body] GET https://api.github.com/repos/singleshop/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
